@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lista de Compras</title>
+  </head>
+  <body>
+
+
+     <DIV id="body">
+
+      <h1 id="title">Compras da Semana</h1>
+
+      <div id="adicionar">
+        <label for="item">Nome</label>
+
+        <input type="text" id="input" name="item" required placeholder="Adicione um novo item"/>
+
+        <button type="submit" id="button" onclick="adicionar()">Adicionar item</button>
+      </div>
+
+      <ul id="list"></ul>
+
+      <footer id="alert">
+
+        <img id="alerticon" src="./images/alert.svg"alt=""/>
+        <p>O item foi removido da lista.</p>
+        <img id="excluir" src="./images/cance.svg" alt=""/>
+
+      </footer>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
